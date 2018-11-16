@@ -1,0 +1,7 @@
+server {
+    listen 8085 default_server;
+    server_name localhost;
+    
+    root /usr/share/nginx/html;
+    index index.html index.htm;
+}
